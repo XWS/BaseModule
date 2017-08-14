@@ -50,8 +50,6 @@ public class BaseActivity<SV extends ViewDataBinding> extends AppCompatActivity 
             animationDrawable.start();
         }
 
-
-
         viewBinding.getRoot().setVisibility(View.GONE);
     }
 
