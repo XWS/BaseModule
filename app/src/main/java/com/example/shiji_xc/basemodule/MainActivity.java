@@ -7,6 +7,9 @@ import android.view.View;
 
 import com.example.shiji_xc.basemodule.ui.Activity1;
 
+/**
+ * MVVM
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override

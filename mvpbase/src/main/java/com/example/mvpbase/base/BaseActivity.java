@@ -48,6 +48,7 @@ public abstract class BaseActivity<T extends IBasePresenter> extends AppCompatAc
 
         StatusBarUtil.setColor(this,getResources().getColor(R.color.colorAccent));
         toolbar.setBackgroundColor(getResources().getColor(R.color.colorAccent));
+        setSupportActionBar(toolbar);
         currentView.setVisibility(View.GONE);
 
         getWindow().setContentView(baseView);
